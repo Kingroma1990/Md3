@@ -1,8 +1,12 @@
 /* * {
     outline: 1px solid red;
 } */
+* {
+  vertical-align: top;
+}
 html {
   box-sizing: border-box;
+ 
 }
 *,
 *::before,
@@ -22,6 +26,7 @@ body {
 
 .page__nav {
   padding: 45px 0;
+  
 }
 
 .site__navigation {
@@ -29,9 +34,15 @@ body {
   margin: 0;
   padding: 0;
   text-align: center;
+  font-size: 0px;
+  
+}
+li {
+  font-size: 14px;
 }
 .site__navigation li {
   display: inline-block;
+ 
 }
 .site__navigation li:not(:last-child) {
   margin-right: 70px;
@@ -72,5 +83,5 @@ button {
 }
 .button {
   text-align: center;
-  margin: 40px 0 53px;
+  margin: 54px 0 70px;
 }
