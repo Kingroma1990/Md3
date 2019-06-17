@@ -15,13 +15,16 @@ html {
 }
 body {
   font-family: "PlayfairDisplay-Regular", "AdobeInvisFont", "MyriadPro-Regular";
-  font-size: 14px;
+  
   color: #626262;
   line-height: 21px;
 }
 .container {
   width: 937px;
   margin: 0 auto;
+}
+main.container {
+  font-size: 0;
 }
 
 .page__nav {
@@ -60,6 +63,7 @@ li {
 }
 .page__article {
   display: inline-block;
+  font-size: 16px;
 }
 
 .page__main {
